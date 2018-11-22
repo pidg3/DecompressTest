@@ -1,9 +1,6 @@
 const decompress = require('decompress');
 const decompressTargz = require('decompress-targz');
 
-console.log(process.argv[2]);
-console.log(process.argv[3]);
-
 if (!process.argv[2] || !process.argv[3]) {
   console.log('Usage: npm run start [filename] [folder]');
   
